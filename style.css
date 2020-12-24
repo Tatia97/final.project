@@ -1,0 +1,299 @@
+body {
+    background-image: url(./images/Rectangle\ 11.svg), url(./images/Rectangle\ 10.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main {
+    margin-top: 45px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.header {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    overflow:hidden;
+}
+.burger-menu {
+    cursor: pointer;
+}
+.left-right-header {
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+    align-items: center;
+}
+.movies {
+    font-size: 22px;
+    color: #E5C642;
+}
+.search-bar {
+    position: relative;
+}
+.search {
+    border: none;
+    width: 707px;
+    height: 50px;
+    background-color: #606060;
+    opacity: 0.2;
+    outline: none;
+    padding: 18px 50px 14px 30px;
+    color: white;
+}
+::placeholder {
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 100;
+}
+.magnifying-glass {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    cursor: pointer;
+}
+.eng {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    background-color: #2F2F2F;
+    color: #F5F5F5;
+}
+.eng:hover {
+    background-color: #414040;
+}
+.tiny-man {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    background-color: #2F2F2F;
+    padding: 13px;
+}
+.tiny-man:hover {
+    background-color: #414040;
+}
+.movie-of-day {
+    margin-top: 100px;
+    height: 264px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-of-day-text {
+    width: 680px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.movie-of-day-text-1 {
+    font-size: 44px;
+    cursor: pointer;
+}
+.movie-of-day-text-2 {
+    font-size: 24px;
+    cursor: pointer;
+}
+.movie-of-day-text-3 {
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.movie-of-day-icon-pic {
+    cursor: pointer;
+}
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.carousel-button {
+    margin: 10px;
+    background-color: #CCCCCC;
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    opacity: 1;
+    cursor: pointer;
+}
+.carousel-button:hover {
+    background-color: #E5C642;
+}
+.most-watched {
+    background-color: #242424;
+}
+.most-watched-text {
+    color: #FFFFFF;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 40px;
+}
+.most-watched-text-1 {
+    margin-right: 400px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.most-watched-text-2 {
+    font-size: 16px;
+    cursor: pointer;
+}
+.most-watched-text-2:hover {
+    color: #E5C642;
+}
+.most-watched-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    height: 350px;
+    padding-bottom: 50px;
+}
+.most-watched-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 230px;
+    position: relative;
+}
+.most-watched-card-pic {
+    width: 250px;
+    cursor: pointer;
+}
+.most-watched-card-pic2 {
+    display: none;
+    position: absolute;
+    width: 250px;
+    top: 4px;
+}
+.most-watched-card-pic3 {
+    display: none;
+    position: absolute;
+    float: none;
+    left: 70px;
+    top: 35px;
+}
+.most-watched-card:hover .most-watched-card-pic2 {
+    display: block;
+    cursor: pointer;
+}
+.most-watched-card:hover .most-watched-card-pic3 {
+    display: block;
+    cursor: pointer;
+}
+.most-watched-card-text {
+    cursor: pointer;
+    color: #CCCCCC;
+    margin-bottom: 10px;
+}
+.arrow-pic {
+    cursor: pointer;
+    padding: 30px;
+}
+.fills {
+    display: flex;
+    justify-content: flex-end;
+}
+.add-circle-fill {
+    display: none;
+}
+.information-fill {
+    display: none;
+}
+.movie-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.movie-info {
+    display: flex;
+    justify-content: space-between;
+}
+.most-watched-card:hover .add-circle-fill {
+    display: block;
+    cursor: pointer;
+}
+.most-watched-card:hover .information-fill {
+    display: block;
+    cursor: pointer;
+}
+.continue-watching {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.continue-watching-text {
+    font-size: 22px;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.new-movies-text-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.new-movies-text {
+    color: #FFFFFF;
+    font-size: 22px;
+    cursor: pointer;
+}
+.view-all-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.view-all-text:hover {
+    color: #E5C642;
+}
+.new-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.new-series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.collection-container {
+    display: flex;
+    justify-content: space-between;
+}
+.collection-card {
+    position: relative;
+}
+.collection-card-pic-1 {
+    width: 150px;
+    cursor: pointer;
+}
+.collection-card-pic-2 {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    cursor: pointer;
+}
+.collection-card-text-1 {
+    position: absolute;
+    color: #FFFFFF;
+    left: 50px;
+    top: 50px;
+    cursor: pointer;
+}
+.collection-card:hover .collection-card-text-2 {
+    color: #E5C642;
+}
+
+
