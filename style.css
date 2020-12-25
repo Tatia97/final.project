@@ -338,5 +338,48 @@ footer ul li {
 .gap-ul {
     margin-right: 130px;
 }
-
-
+/*
+@media (max-width: 576px) { 
+    .search {
+        width: auto;
+    }
+    .most-watched-text-1 {
+        margin-right: 2px;
+    }
+    .new-movies {
+        flex-direction: row;
+    }
+    .new-series {
+        flex-direction: row;
+    }
+    .most-watched-card {
+        align-items: center;
+    }
+    .most-watched-card-pic3 {
+        width: 1px;
+    }
+    .movie-info {
+        width: 240px;
+    }
+    .collection-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .collection-card-pic-1 {
+        width: auto;
+    }
+    .collection-card-pic-2 {
+        width: auto;
+    }
+    .collection-card-text-1 {
+        top: 58px;
+        left: 80px;
+    } 
+    .collection-card {
+        margin: 10px 0px;
+    }
+    .footer-text {
+        flex-direction: column;
+    }
+}
+*/

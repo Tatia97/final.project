@@ -32,21 +32,23 @@
                     </div>
                 </div>
                 <h2>Or sign up</h2>
-                <form>
+                <div id="error"></div>
+                <form id="form" action="/" method="GET">
                     <div class="form-card">
                         <label for="nameInput"><p id="hidden1">Name</p></label>
-                        <input class="nameInput" type="name" placeholder="Name" onclick="myFunction1()" required/>
+                        <input id="name" class="nameInput" type="name" placeholder="Name" onclick="myFunction1()" required/>
                     </div>
                     <div class="form-card">
                         <label for="emailInput"><p id="hidden2">Email</p></label>
-                        <input class="emailInput" type="email" placeholder="Email" onclick="myFunction2()" required/>
+                        <input id="email" class="emailInput" type="email" placeholder="Email" onclick="myFunction2()" required/>
                     </div>
                     <div class="form-card">
                         <label for="countryInput"><p id="hidden3">country</p></label>
                          <input class="countryInput" type="country" placeholder="country" onclick="myFunction3()" required/>
                     </div>  
+                    <button type="submit" class="button2">Sign up</button> 
                 </form>
-                <button class="button2">Sign up</button> 
+                
                 <div class="already-account">
                     <div class="already-account-text">Already have an account?</div>
                     <div class="already-account-sign-in">Sign in</div>

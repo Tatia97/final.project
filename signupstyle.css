@@ -263,3 +263,24 @@ a {
 a:visited {
     text-decoration: none;
 }
+/*
+@media only screen and (max-width: 576px) {
+    .search {
+        width: auto;
+    }
+    .ul1 {
+        margin-right: 18px;
+    }
+    .footer-text {
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    footer ul li {
+        margin-top: 20px;
+    }
+}
+*/
