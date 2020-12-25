@@ -19,25 +19,39 @@
             </form>
             <div class="left-right-header">
                 <button class="eng">ENG</button>
-                <img class="tiny-man" src="./images/user-fill.svg">
+                <a href="./signup.html" target="_blank"><img class="tiny-man" src="./images/user-fill.svg"></a>
             </div>
         </div>
         <div class="movie-of-day">
             <div class="movie-of-day-text">
                 <div class="movie-of-day-text-1">THE QUEEN'S GAMBIT</div>
-                <div class="movie-of-day-text-2">2012</div>
+                <div class="movie-of-day-text-2">2020</div>
                 <div class="movie-of-day-text-3">Nine year-old orphan Beth Harmon is quiet, sullen, and by all appearances unremarkable. That is, until she plays her first game of chess. Her senses grow sharper, her thinking clearer, and for the first time in her life she feels herself fully in control. By the age of sixteen, she's competing for the U.S. Open championship. But as Beth hones her skills on the professional circuit, the stakes get higher, her isolation grows more frightening, and the thought of escape becomes all the more tempting. Based on the book by Walter Tevis.</div>
+            </div>
+            <div class="movie-of-day-text">
+                <div class="movie-of-day-text-1">Walk of Shame</div>
+                <div class="movie-of-day-text-2">2014</div>
+                <div class="movie-of-day-text-3">A night of partying turns into a nightmare for Meghan when she wakes up next to a stranger and is very close to missing out on the job interview of a lifetime.</div>
+            </div>
+            <div class="movie-of-day-text">
+                <div class="movie-of-day-text-1">Boss Level</div>
+                <div class="movie-of-day-text-2">2020</div>
+                <div class="movie-of-day-text-3">A retired military operative finds himself in a never-ending time loop on the day of his death.</div>
+            </div>
+            <div class="movie-of-day-text">
+                <div class="movie-of-day-text-1">Hanna</div>
+                <div class="movie-of-day-text-2">2011</div>
+                <div class="movie-of-day-text-3">Hanna Heller, a 16-year-old raised to be the perfect assassin, is sent on a mission, which takes her across Europe. She is shadowed by an intelligence agent and her team.</div>
             </div>
             <div class="movie-of-day-icon">
                 <img class="movie-of-day-icon-pic" src="./images/Group 10.svg" alt="">
             </div>
         </div>
         <div class="carousel-buttons">
-            <div class="carousel-button"></div>
-            <div class="carousel-button"></div>
-            <div class="carousel-button"></div>
-            <div class="carousel-button"></div>
-            <div class="carousel-button"></div>
+            <div class="carousel-button" onclick="currentSlide(1)"></div>
+            <div class="carousel-button" onclick="currentSlide(2)"></div>
+            <div class="carousel-button" onclick="currentSlide(3)"></div>
+            <div class="carousel-button" onclick="currentSlide(4)"></div>
         </div>
         <div class="most-watched">
             <div class="most-watched-text">
@@ -363,32 +377,81 @@
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">marvel</span></div>
                 </div>
                 <div class="collection-card">
-                    <img class="collection-card-pic-1" src="./images/">
+                    <img class="collection-card-pic-1" src="./images/Rectangle 31.svg">
                     <img class="collection-card-pic-2" src="./images/Rectangle 47.svg" alt="">
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">dc</span></div>
                 </div>
                 <div class="collection-card">
-                    <img class="collection-card-pic-1" src="./images/">
+                    <img class="collection-card-pic-1" src="./images/Rectangle 31.svg">
                     <img class="collection-card-pic-2" src="./images/Rectangle 47.svg" alt="">
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">netflix</span></div>
                 </div>
                 <div class="collection-card">
-                    <img class="collection-card-pic-1" src="./images/">
+                    <img class="collection-card-pic-1" src="./images/Rectangle 31.svg">
                     <img class="collection-card-pic-2" src="./images/Rectangle 47.svg" alt="">
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">romantic</span></div>
                 </div>
                 <div class="collection-card">
-                    <img class="collection-card-pic-1" src="./images/">
+                    <img class="collection-card-pic-1" src="./images/Rectangle 31.svg">
                     <img class="collection-card-pic-2" src="./images/Rectangle 47.svg" alt="">
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">comedy</span></div>
                 </div>
                 <div class="collection-card">
-                    <img class="collection-card-pic-1" src="./images/">
+                    <img class="collection-card-pic-1" src="./images/Rectangle 31.svg">
                     <img class="collection-card-pic-2" src="./images/Rectangle 47.svg" alt="">
                     <div class="collection-card-text-1">#<span class="collection-card-text-2">animations</span></div>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-text">
+            <ul>
+                <li class="li-header">Choose Genre</li>
+                <li>ANIMATION</li>
+                <li>BIOGRAPHY</li>
+                <li>CRIME</li>
+                <li>DOCUMENTARY</li>
+                <li>DRAMA</li>
+            </ul>
+            <ul class="no-header-ul">
+                <li>ADULT</li>
+                <li>WESTERN</li>
+                <li>HISTORY</li>
+                <li>COMEDY</li>
+                <li>ROMANCE</li>
+            </ul>
+            <ul class="no-header-ul">
+                <li>MUSICAL</li>
+                <li>SHORT</li>
+                <li>MYSTERY</li>
+                <li>MUSIC</li>
+                <li>ACTION</li>
+            </ul>
+            <ul class="no-header-ul gap-ul">
+                <li>ADVENTURE</li>
+                <li>SCI-FI</li>
+                <li>WAR</li>
+                <li>FAMILY</li>
+                <li>HORROR</li>
+            </ul>
+            <ul>
+                <li class="li-header">Help pages</li>
+                <a href="./signup.html" target="_blank"><li>Sign in</li></a>
+                <a href="./signup.html" target="_blank"><li>Sign up</li></a>
+                <li>Contact</li>
+                <li>Privacy & Politic</li>
+                <li>Site map</li>
+            </ul>
+            <ul>
+                <li class="li-header">Be a friend</li>
+                <a href="https://facebook.com" target="_blank"><li>Facebook</li></a>
+                <a href="https://instagram.com" target="_blank"><li>Instagram</li></a>
+                <a href="https://youtube.com" target="_blank"><li>Twitter</li></a>
+                <a href="https://twitter.com"><li>Youtube</li></a>
+            </ul>
+            </div>
+        </footer>
         </div>
+        <script src="./script.js"></script>
     </body>
 </html>

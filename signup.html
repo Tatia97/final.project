@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign up</title>
+        <link rel="stylesheet" type="text/css" href="./reset.css">
+        <link rel="stylesheet" type="text/css" href="./signupstyle.css"> 
+    </head>
+    <body>  
+        <div class="header2">
+            <div class="left-right-header2">
+                <img class="burger-menu" src="./images/menu-line.svg">
+                <span class="movies">Movies.</span>
+            </div>
+            <form class="search-bar" action="#">
+                <input class="search" type="text" name="search" placeholder="Search">
+                <img class="magnifying-glass" src="./images/search-line.svg">
+            </form>
+            <div class="left-right-header2">
+                <button class="eng">ENG</button>
+                <img class="tiny-man" src="./images/user-fill.svg">
+            </div>
+        </div>
+        <div class="main">
+            <div class="sign-up-form">
+                <h1>Sign in</h1>
+                <h2>Login with social</h2>
+                <div class="social-media">
+                    <div class="ul1">
+                        <div class="social-media-link"><img class="link-pic" src="./images/facebook-fill.svg">Facebook</div>
+                        <div class="social-media-link"><img class="link-pic" src="./images/google-fill.svg">Gmail</div>
+                    </div>
+                </div>
+                <h2>Or sign up</h2>
+                <form>
+                    <div class="form-card">
+                        <label for="nameInput"><p id="hidden1">Name</p></label>
+                        <input class="nameInput" type="name" placeholder="Name" onclick="myFunction1()" required/>
+                    </div>
+                    <div class="form-card">
+                        <label for="emailInput"><p id="hidden2">Email</p></label>
+                        <input class="emailInput" type="email" placeholder="Email" onclick="myFunction2()" required/>
+                    </div>
+                    <div class="form-card">
+                        <label for="countryInput"><p id="hidden3">country</p></label>
+                         <input class="countryInput" type="country" placeholder="country" onclick="myFunction3()" required/>
+                    </div>  
+                </form>
+                <button class="button2">Sign up</button> 
+                <div class="already-account">
+                    <div class="already-account-text">Already have an account?</div>
+                    <div class="already-account-sign-in">Sign in</div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-text">
+                <ul>
+                    <li class="li-header">Choose Genre</li>
+                    <li>ANIMATION</li>
+                    <li>BIOGRAPHY</li>
+                    <li>CRIME</li>
+                    <li>DOCUMENTARY</li>
+                    <li>DRAMA</li>
+                </ul>
+                <ul class="no-header-ul">
+                    <li>ADULT</li>
+                    <li>WESTERN</li>
+                    <li>HISTORY</li>
+                    <li>COMEDY</li>
+                    <li>ROMANCE</li>
+                </ul>
+                <ul class="no-header-ul">
+                    <li>MUSICAL</li>
+                    <li>SHORT</li>
+                    <li>MYSTERY</li>
+                    <li>MUSIC</li>
+                    <li>ACTION</li>
+                </ul>
+                <ul class="no-header-ul gap-ul">
+                    <li>ADVENTURE</li>
+                    <li>SCI-FI</li>
+                    <li>WAR</li>
+                    <li>FAMILY</li>
+                    <li>HORROR</li>
+                </ul>
+                <ul>
+                    <li class="li-header">Help pages</li>
+                    <a href="./signup.html" target="_blank"><li>Sign in</li></a>
+                    <a href="./signup.html" target="_blank"><li>Sign up</li></a>
+                    <li>Contact</li>
+                    <li>Privacy & Politic</li>
+                    <li>Site map</li>
+                </ul>
+                <ul>
+                    <li class="li-header">Be a friend</li>
+                    <a href="https://facebook.com" target="_blank"><li>Facebook</li></a>
+                    <a href="https://instagram.com" target="_blank"><li>Instagram</li></a>
+                    <a href="https://youtube.com" target="_blank"><li>Twitter</li></a>
+                    <a href="https://twitter.com"><li>Youtube</li></a>
+                </ul>
+                </div>
+            </footer>
+        </div>
+        <script src="./signupscript.js"></script>
+    </body>
+</html>
