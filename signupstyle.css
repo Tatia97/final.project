@@ -263,6 +263,32 @@ a {
 a:visited {
     text-decoration: none;
 }
+@media only screen and (min-width: 90.063em) {
+    body {
+        background: url(./images/Rectangle\ 156.svg), url(./images/Rectangle\ 56.svg) left top no-repeat, url(./images/Rectangle\ 156.svg) right top no-repeat, url(./images/Rectangle\ 57.svg) right top no-repeat;
+        background-color: #171717;
+        background-size: 590px 1167px;
+        background-repeat: no-repeat;
+    }
+    .main {
+        margin: 0px 710px;
+    }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+    body {
+        background-size: 447px 850px;
+    }
+    .main {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .header2 {
+        padding: 18px 0px 20px 0px;
+    }
+    .footer-text {
+        flex-direction: column;
+    }
+} 
 /*
 @media only screen and (max-width: 576px) {
     .search {
