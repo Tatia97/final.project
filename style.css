@@ -6,8 +6,8 @@ body {
 }
 .main {
     margin-top: 45px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 a {
     text-decoration: none;
@@ -28,7 +28,7 @@ a:visited {
 .left-right-header {
     display: flex;
     justify-content: space-between;
-    width: 115px;
+    width: 125px;
     align-items: center;
 }
 .movies {
@@ -103,7 +103,7 @@ a:visited {
     display: none;
 }
 .movie-of-day-text-1 {
-    font-size: 44px;
+    font-size: 48px;
     cursor: pointer;
 }
 .movie-of-day-text-2 {
@@ -112,7 +112,7 @@ a:visited {
     margin: 10px 0px 30px 0px;
 }
 .movie-of-day-text-3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -146,17 +146,17 @@ a:visited {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 195px;
+    margin-right: 195px;
     padding-top: 40px;
 }
 .most-watched-text-1 {
-    margin-right: 400px;
-    font-size: 22px;
+    margin-right: 500px;
+    font-size: 26px;
     cursor: pointer;
 }
 .most-watched-text-2 {
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 .most-watched-text-2:hover {
@@ -167,32 +167,29 @@ a:visited {
     justify-content: space-around;
     align-items: center;
     color: #FFFFFF;
-    height: 350px;
-    padding-bottom: 50px;
+    height: 427px;
 }
 .most-watched-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 230px;
+    height: 327px;
     position: relative;
 }
 .most-watched-card-pic {
-    width: 250px;
     cursor: pointer;
 }
 .most-watched-card-pic2 {
     display: none;
     position: absolute;
-    width: 250px;
-    top: 4px;
+    top: 12px;
 }
 .most-watched-card-pic3 {
     display: none;
     position: absolute;
     float: none;
-    left: 70px;
-    top: 35px;
+    left: 124px;
+    top: 73px;
 }
 .most-watched-card:hover .most-watched-card-pic2 {
     display: block;
@@ -213,18 +210,22 @@ a:visited {
 }
 .fills {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 65px;
 }
 .add-circle-fill {
     display: none;
+    width: 30px;
 }
 .information-fill {
     display: none;
+    width: 30px;
 }
 .movie-titles {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 20px;
 }
 .movie-info {
     display: flex;
@@ -257,12 +258,12 @@ a:visited {
 }
 .new-movies-text {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 24px;
     cursor: pointer;
 }
 .view-all-text {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
 }
 .view-all-text:hover {
@@ -286,21 +287,20 @@ a:visited {
     position: relative;
 }
 .collection-card-pic-1 {
-    width: 150px;
     cursor: pointer;
 }
 .collection-card-pic-2 {
     position: absolute;
-    width: 150px;
     left: 0px;
     cursor: pointer;
 }
 .collection-card-text-1 {
     position: absolute;
     color: #FFFFFF;
-    left: 50px;
-    top: 40px;
+    left: 80px;
+    top: 60px;
     cursor: pointer;
+    font-size: 18px;
 }
 .collection-card:hover .collection-card-text-2 {
     color: #E5C642;
@@ -330,7 +330,7 @@ ul li:hover {
 footer ul li {
     margin-top: 30px;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
 }
 .no-header-ul {
     margin-top: 93px;
