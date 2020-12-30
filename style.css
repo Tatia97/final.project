@@ -224,6 +224,10 @@ a:visited {
     display: none;
     width: 30px;
 }
+#more {display: none;}
+#more1 {
+    display: none;
+}
 .movie-titles {
     display: flex;
     flex-direction: column;

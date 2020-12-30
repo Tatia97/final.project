@@ -28,3 +28,20 @@ form.addEventListener('submit', (e) => {
     messages.push('Email is required')
   }
 })
+
+
+// let infos = [];
+ // const addInfo = (ev)=>{
+ // ev.preventDefault();  
+ // let info = {
+  //id: Date.now(),
+  //nameInput: document.getElementById('name').value,
+ // emailInput: document.getElementById('email').value
+ // }
+ // infos.push(info);
+ // document.forms[0].reset();
+ //localStorage.setItem('signList', JSON.stringify(infos) );
+// }
+// document.addEventListener('DOMContentLoaded', ()=>{
+// document.getElementById('btn').addEventListener('click', addInfo);
+//});

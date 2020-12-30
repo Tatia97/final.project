@@ -68,8 +68,8 @@
                     <img class="most-watched-card-pic3" src="./images/Group 26.svg">
                     <div class="movie-info">
                         <div class="movie-titles">
-                            <span class="most-watched-card-text">The Queen's Gambit</span>
-                            <span class="most-watched-card-text">2020</span>
+                            <span class="most-watched-card-text" >The Queen's Gambit</span>
+                            <span class="most-watched-card-text" >2020</span>
                         </div>
                         <div class="fills">
                             <img class="add-circle-fill" src="./images/add-circle-fill.svg">
@@ -118,8 +118,8 @@
                 <img class="most-watched-card-pic3" src="./images/Group 26.svg">
                 <div class="movie-info">
                     <div class="movie-titles">
-                        <span class="most-watched-card-text">The Avengers</span>
-                        <span class="most-watched-card-text">2012</span>
+                        <span class="most-watched-card-text" id="title">The Avengers</span>
+                        <span class="most-watched-card-text" id="year">2012</span>
                     </div>
                     <div class="fills">
                         <img class="add-circle-fill" src="./images/add-circle-fill.svg">
@@ -133,8 +133,8 @@
                 <img class="most-watched-card-pic3" src="./images/Group 26.svg">
                 <div class="movie-info">
                     <div class="movie-titles">
-                        <span class="most-watched-card-text">Walk of Shame</span>
-                        <span class="most-watched-card-text">2014</span>
+                        <span class="most-watched-card-text" id="title">Walk of Shame</span>
+                        <span class="most-watched-card-text" id="year">2014</span>
                     </div>
                     <div class="fills">
                         <img class="add-circle-fill" src="./images/add-circle-fill.svg">
@@ -148,8 +148,8 @@
                 <img class="most-watched-card-pic3" src="./images/Group 26.svg">
                 <div class="movie-info">
                     <div class="movie-titles">
-                        <span class="most-watched-card-text">Boss Level</span>
-                        <span class="most-watched-card-text">2020</span>
+                        <span class="most-watched-card-text" id="title">Boss Level</span>
+                        <span class="most-watched-card-text" id="year">2020</span>
                     </div>
                     <div class="fills">
                         <img class="add-circle-fill" src="./images/add-circle-fill.svg">
@@ -163,8 +163,8 @@
                 <img class="most-watched-card-pic3" src="./images/Group 26.svg">
                 <div class="movie-info">
                     <div class="movie-titles">
-                        <span class="most-watched-card-text">Unhinged</span>
-                        <span class="most-watched-card-text">2020</span>
+                        <span class="most-watched-card-text" id="title">Unhinged</span>
+                        <span class="most-watched-card-text" id="year">2020</span>
                     </div>
                     <div class="fills">
                         <img class="add-circle-fill" src="./images/add-circle-fill.svg">
@@ -175,7 +175,7 @@
         </div>
         <div class="new-movies-text-bar">
             <div class="new-movies-text">NEW MOVIES</div>
-            <div class="view-all-text">View all</div>
+            <div class="view-all-text" onclick="myFunction()" id="myBtn">View all</div>
         </div>
         <div class="new-movies">
             <div class="most-watched-card">
@@ -298,10 +298,27 @@
                     </div>
                 </div>
             </div>
+            <span id="dots"></span><span id="more"> 
+                <div class="most-watched-card">
+                    <img class="most-watched-card-pic" src="./images/Rectangle 28.svg">
+                    <img class="most-watched-card-pic2" src="./images/Rectangle 26.svg">
+                    <img class="most-watched-card-pic3" src="./images/Group 26.svg">
+                    <div class="movie-info">
+                        <div class="movie-titles">
+                            <span class="most-watched-card-text">Happiest Season 2</span>
+                            <span class="most-watched-card-text">2020</span>
+                        </div>
+                        <div class="fills">
+                            <img class="add-circle-fill" src="./images/add-circle-fill.svg">
+                            <img class="information-fill" src="./images/information-fill.svg">
+                        </div>
+                    </div>
+                </div>
+            </span>
         </div>
         <div class="new-movies-text-bar">
             <div class="new-movies-text">NEW SERIES</div>
-            <div class="view-all-text">View all</div>
+            <div class="view-all-text" onclick="myFunction1()" id="myBtn1">View all</div>
         </div>
         <div class="new-series">
             <div class="most-watched-card">
@@ -364,6 +381,23 @@
                     </div>
                 </div>
             </div>
+            <span id="dots1"></span><span id="more1"> 
+                <div class="most-watched-card">
+                    <img class="most-watched-card-pic" src="./images/Rectangle 28.svg">
+                    <img class="most-watched-card-pic2" src="./images/Rectangle 26.svg">
+                    <img class="most-watched-card-pic3" src="./images/Group 26.svg">
+                    <div class="movie-info">
+                        <div class="movie-titles">
+                            <span class="most-watched-card-text">Happiest Season 2</span>
+                            <span class="most-watched-card-text">2020</span>
+                        </div>
+                        <div class="fills">
+                            <img class="add-circle-fill" src="./images/add-circle-fill.svg">
+                            <img class="information-fill" src="./images/information-fill.svg">
+                        </div>
+                    </div>
+                </div>
+            </span>
         </div>
         <div class="new-movies-text-bar">
             <div class="new-movies-text">Collection</div>
